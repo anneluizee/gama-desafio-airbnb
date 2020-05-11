@@ -1,0 +1,37 @@
+body{
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+}
+
+#conteudo{
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 2%;
+}
+
+.cabecalho{
+    display: flex; 
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    height: 80px;
+}
+.cabecalho a{
+    color: black;
+    text-decoration: unset;
+    font-weight: 600;
+    padding: 1%;
+}
+
+#cabecalho_navbar{
+    display: flex; 
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+#cabecalho_logo{
+    width: 50px;
+}
